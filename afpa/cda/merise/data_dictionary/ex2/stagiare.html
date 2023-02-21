@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 2 dictionnaire de données</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <h3 style="text-align: center;">Dictionnaire de données table de stagiaire:</h3>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">Description</th>
+                <th scope="col">Libelle</th>
+                <th scope="col">Type de données</th>
+                <th scope="col">Contrainte</th>
+            </tr>
+
+            <tr>
+                <td>Numéro d'inscription</td>
+                <td>idReg</td>
+                <td>DATE</td>
+                <td>NOT NULL, > 0</td>
+            </tr>
+
+            <tr>
+                <td>Prénom du stagiare</td>
+                <td>fname</td>
+                <td>varchar(20)</td>
+                <td>NOT NULL</td>
+            </tr>
+
+
+            <tr>
+                <td>Nom du stagiare</td>
+                <td>name</td>
+                <td>varchar(20)</td>
+                <td>NOT NULL</td>
+            </tr>
+
+
+            <tr>
+                <td>Genre</td>
+                <td>genre</td>
+                <td>CHAR(2)</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>Numéro de formation</td>
+                <td>idTraining</td>
+                <td>INT(6)</td>
+                <td>NOT NULL, >0</td>
+            </tr>
+
+            <tr>
+                <td>Intitulé nationnal de formation</td>
+                <td>idName</td>
+                <td>varchar(50)</td>
+                <td>NOT NULL, >0</td>
+            </tr>
+
+            <tr>
+                <td>Formation certifiante</td>
+                <td>dipl</td>
+                <td>BOOL</td>
+                <td>NOT NULL</td>
+            </tr>
+
+            <tr>
+                <td>Niveau de la formation</td>
+                <td>lvDip</td>
+                <td>Varchar(10)</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>Durée de formation</td>
+                <td>temps</td>
+                <td>TIME(hh:mm:ss)</td>
+                <td></td>
+            </tr>
+        </thead>
+    </table>
+    
+</body>
+</html>

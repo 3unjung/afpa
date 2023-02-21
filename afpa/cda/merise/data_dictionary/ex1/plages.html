@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 1 didctionnaire de données</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <h4 style="text-align:center;">Dictionnaire de données table des plages:</h4>
+
+    <table class="table">
+        <thead>
+          
+
+      <table class="table table-bordered">
+          <thead>
+              <tr>
+                  <th scope="col">Description</th>
+                  <th scope="col">Libelle</th>
+                  <th scope="col">Type de données</th>
+                  <th scope="col">Contraintes</th>
+              </tr>
+
+              <tr>
+                <td>Identifiant de la plage</td>
+                <td>plage</td>
+                <td>INT(7)</td>
+                <td>NOT NULL</td>
+              </tr>
+
+              <tr>
+                <td>Nom la plage</td>
+                <td>nameBeach</td>
+                <td>varchar(20)</td>
+                <td>NOT NULL</td>
+              </tr>
+
+
+              <tr>
+                  <td>Longeur en km</td>
+                  <td>lenKm</td>
+                  <td>DECIMAL(3,2)</td>
+                  <td>> 1</td>
+              </tr>
+
+              <tr>
+                <td>Description de la nature du terrain</td>
+                <td>ground</td>
+                <td>varchar(50)</td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td>Nom de la région</td>
+                <td>region</td>
+                <td>varchar(20)</td>
+                <td></td>
+              </tr>
+
+              <tr>
+                  <td>Ville selon son code postal</td>
+                  <td>ville</td>
+                  <td>SMALLINT(5)</td>
+                  <td>NOT NULL</td>
+              </tr>
+
+              <tr>
+                <td>Prénom du responsable</td>
+                <td>fnameFollowed</td>
+                <td>varchar(20)</td>
+                <td>NOT NULL<N/td>
+              </tr>
+              
+              <tr>
+                <td>Nom du responsable</td>
+                <td>nameFollowed</td>
+                <td>varchar(20)</td>
+                <td>NOT NULL<N/td>
+              </tr>
+
+
+              <tr>
+                <td>Nombre annuel de tourristes</td>
+                <td>nbStrip</td>
+                <td>INT(6)</td>
+                <td></td>
+              </tr>
+              
+          </thead>
+      </table>
+
+      
+    
+</body>
+</html>
