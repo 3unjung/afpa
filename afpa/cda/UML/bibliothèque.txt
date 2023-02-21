@@ -1,0 +1,12 @@
+La médiathéque
+
+Un lecteur quelconque cherche a emprunter un document, on lui demande si il possède une carte lecteur pour poursuivre son emprunt.
+Le lecteur doit poursuivre sur une inscrition pour permettre d'emprunter des documents.
+Une fois inscrit, lui ou les employés ont la possibilité de modifier ou de consulter les informatons personnelles du dit client.
+Si le lecteur possède une carte lecteur, on vérifie également si il n'as plus de cinq emprunts en cours
+Si tous est en régle, l'employé ou le bénévole enregistre son emprunt en lui attribuant un numéro unique.
+Lorsque que le lecteur emprunte un cdroom il doit payer une caution.
+Un emprunt ne peut pas être emprunté plus de quatre semaine. Au delà, une lettre de relance sera adressé au lecteur.
+Lorsque un emprunt n'est pas restitué après le rappel ou si il est déclaré volé, il sera mis hors stock et ne pourras plus être emprunté.
+
+
